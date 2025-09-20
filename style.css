@@ -31,8 +31,8 @@ body {
 }
 
 .photobanner {
-  -webkit-animation: bannermove 60s linear infinite;
-	animation: bannermove 120s linear infinite;
+  -webkit-animation: bannermove 150s linear infinite;
+	animation: bannermove 150s linear infinite;
 }
 
 @keyframes bannermove {
@@ -40,6 +40,6 @@ body {
     left: 100%;
   }
   to {
-    left: -3700px;
+    left: -4700px;
   }
 }
