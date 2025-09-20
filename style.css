@@ -1,0 +1,45 @@
+html, body {
+  height: 100%;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	  background: url(https://xatimg.com/image/0iJvO6JF5HSH.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+	z-index: -1;
+}
+
+.wrapper {
+	width: 100%;
+	overflow: hidden;
+}
+.photobanner {
+	position: absolute;
+	width: 350px;
+	height: 303px;
+	bottom: 2px;
+	display: flex;
+}
+
+.photobanner img {
+  margin: 0px 5px;
+  box-shadow: 2px 2px 5px #00FF00;
+}
+
+.photobanner {
+  -webkit-animation: bannermove 60s linear infinite;
+	animation: bannermove 120s linear infinite;
+}
+
+@keyframes bannermove {
+  from {
+    left: 100%;
+  }
+  to {
+    left: -3700px;
+  }
+}
