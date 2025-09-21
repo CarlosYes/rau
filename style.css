@@ -18,7 +18,7 @@ body {
 	overflow: hidden;
 }
 .photobanner {
-	position: absolute;
+	position: fixed;
 	width: 350px;
 	height: 303px;
 	bottom: 2px;
